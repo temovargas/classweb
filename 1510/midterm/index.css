@@ -122,6 +122,9 @@ main h2 {
     padding-top: 40px;
 
 }
+.equipment li {
+    box-shadow: white 4px salmon;
+}
 
 .equipment li h3 {
     padding: 40px 20px;
