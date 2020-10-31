@@ -72,7 +72,7 @@ main {
 
     text-align: center;
     color: white;
-    padding: 0 0 70px 0;
+    padding: 0 0 200px 0;
 }
 
 main h2 {
@@ -331,4 +331,20 @@ form button {
 
     background: rgb(128, 17, 17);
     transform: translate(2px,2px); 
+}
+
+.footer-wrapper  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+
+}
+
+.gmap_canvas {
+    display: block;
+    overflow: hidden;
 }
