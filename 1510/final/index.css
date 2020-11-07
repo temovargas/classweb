@@ -1,350 +1,320 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: sans-serif;
-    background: rgb(19, 33, 48);
-
+  font-family: sans-serif;
+  background: rgb(19, 33, 48);
 }
 
 p {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 header {
-    background: white;
+  background: white;
 }
 
-
-
-
 header a {
-    display: inline-block;
-    padding: 20px;
-    font-size: 18px;
-    text-decoration: none;
-    color: rgb(233, 62, 62);
-    font-weight: bold;
+  display: inline-block;
+  padding: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(233, 62, 62);
+  font-weight: bold;
 }
 
 header a:hover {
-    color: rgb(153, 16, 16);
-
+  color: rgb(153, 16, 16);
 }
 
 header a:visited {
-    color: rgb(180, 80, 80);
-
+  color: rgb(180, 80, 80);
 }
 
 header h1 {
-    padding: 40px 0;
-    padding-left: 20px;
-    display: inline-block;
-    margin-right: auto;
+  padding: 40px 0;
+  padding-left: 20px;
+  display: inline-block;
+  margin-right: auto;
 }
 
 header .wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-
 .wrapper {
-    max-width: 1400px;
-    margin: 0 auto;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 main {
-
-    text-align: center;
-    color: white;
-    padding: 0 0 200px 0;
+  text-align: center;
+  color: white;
+  padding: 0 0 200px 0;
 }
 
 main h2 {
-    font-size: 34px;
-    margin-top: 50px;
-    display: inline-block;
+  font-size: 34px;
+  margin-top: 50px;
+  display: inline-block;
 }
 
-
-
 .hero {
-    background-image: url('./images/hero.png');
-    height: 600px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("./images/hero-min.png");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .hero h1 {
-    font-size: clamp(15px, 10vw, 2rem);
+  font-size: clamp(15px, 10vw, 2rem);
 
-    max-width: 50%;
-    line-height: 1.7;
-    color: white;
-
+  max-width: 50%;
+  line-height: 1.7;
+  color: white;
 }
 
 .nav {
-    display: flex;
+  display: flex;
 }
 
 .equipment {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 
-    justify-content: space-around;
-    list-style: none;
-    text-align: center;
+  justify-content: space-around;
+  list-style: none;
+  text-align: center;
 
-    padding-top: 40px;
-
+  padding-top: 40px;
 }
 
 .equipment li h3 {
-    padding: 40px 20px;
-    font-weight: 300;
+  padding: 40px 20px;
+  font-weight: 300;
 }
 
 .equipment li img {
+  width: 100%;
+  min-width: 100px;
 
-    width: 100%;
-    min-width: 100px;
+  height: 100%;
+  min-height: 100px;
+  max-width: 250px;
+  max-height: 250px;
 
+  text-align: center;
 
+  border-radius: 250px;
 
-    height: 100%;
-    min-height: 100px;
-    max-width: 250px;
-    max-height: 250px;
+  background: #000;
 
-    text-align: center;
+  overflow: hidden;
 
-    border-radius: 250px;
+  position: relative;
+  top: -10px;
 
-    background: #000;
-
-    overflow: hidden;
-
-    position: relative;
-    top: -10px;
-
-    transition: box-shadow ease-in .3s;
+  transition: box-shadow ease-in 0.3s;
 }
-
 
 .equipment img {
-    box-shadow: 1px 1px 0 rgb(218, 30, 30);
+  box-shadow: 1px 1px 0 rgb(218, 30, 30);
 }
 .equipment img:hover {
-    box-shadow: 6px 4px 8px rgb(147, 19, 19);
+  box-shadow: 6px 4px 8px rgb(147, 19, 19);
 }
 
-
 .about {
-    font-size: 20px;
-    padding: 0 10px;
-    margin: 90px auto;
-    line-height: 1.5;
-    max-width: 800px;
+  font-size: 20px;
+  padding: 0 10px;
+  margin: 90px auto;
+  line-height: 1.5;
+  max-width: 800px;
 }
 
 .about .adress {
-    color: rgb(233, 62, 62);
-
+  color: rgb(233, 62, 62);
 }
 
 .price-list {
-    display: flex;
-    justify-content: space-around;
-    color: black;
+  display: flex;
+  justify-content: space-around;
+  color: black;
 }
 
 .prices h2 {
-    margin: 50px;
+  margin: 50px;
 }
 
 .price-list li {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 
-
-    background: white;
-    max-width: 200px;
-    width: 100%;
-    border-radius: 10px;
-    padding: 10px 20px;
-    height: 200px;
+  background: white;
+  max-width: 200px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px 20px;
+  height: 200px;
 }
 
 .price {
-    font-size: 32px;
-    margin-bottom: 5px;
+  font-size: 32px;
+  margin-bottom: 5px;
 }
 
 .price,
 .saving {
-    color: rgb(233, 62, 62);
-
+  color: rgb(233, 62, 62);
 }
 
 .duration {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-
-
 footer {
-    background: #262626;
-    color: white;
+  background: #262626;
+  color: white;
 
-    text-align: center;
+  text-align: center;
 }
 
 footer .info {
-    padding: 40px 0;
-    list-style: none;
+  padding: 40px 0;
+  list-style: none;
 }
 
 .info li {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 .info h4 {
-    font-weight: 600;
-    font-size: 24px;
+  font-weight: 600;
+  font-size: 24px;
 }
 
 .phone,
 .adress {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 /* serviecs */
-
+.flex__wrapper {
+  display: flex;
+}
 .services {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
-
 .service-list {
-    padding: 20px;
-
+  padding: 20px;
 }
 
 .service-name {
-    font-size: 24px;
-    padding: 10px;
-    color: rgb(233, 62, 62);
-
+  font-size: 24px;
+  padding: 10px;
+  color: rgb(233, 62, 62);
 }
 
 .service-info {
-    font-size: 16px;
-    max-width: 400px;
-    margin: 0 auto;
+  font-size: 16px;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .gym-class {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 40%;
-    min-width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 40%;
+  min-width: 20%;
 }
 
 .gym-class img {
-    width: 100%;
+  width: 100%;
 }
 
 form {
-    padding: 0 20px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    margin: 100px auto;
-    width: 100%;
-    max-width: 600px;
+  padding: 0 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px auto;
+  width: 100%;
+  max-width: 600px;
 }
 
 form label,
 button,
 p {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 form input {
-    font-size: 16px;
-    padding: 10px;
+  font-size: 16px;
+  padding: 10px;
 }
 form input:focus {
-
-    border:  5px solid rgb(218, 30, 30);
+  border: 5px solid rgb(218, 30, 30);
 }
 
 form button {
-    margin-top: 20px;
-    max-width: 100px;
+  margin-top: 20px;
+  max-width: 100px;
 
-    border: none;
+  border: none;
 }
 
 .registerbtn {
-    background: rgb(218, 30, 30);
-    color: white;
-    transition: all ease .5s;
-    font-weight: bold;
-
+  background: rgb(218, 30, 30);
+  color: white;
+  transition: all ease 0.5s;
+  font-weight: bold;
 }
 .registerbtn:hover {
-
-    background: rgb(128, 17, 17);
-    transform: translate(2px,2px); 
+  background: rgb(128, 17, 17);
+  transform: translate(2px, 2px);
 }
 
-.footer-wrapper  {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .mapouter {
-    position: relative;
-    text-align: right;
-
+  position: relative;
+  text-align: right;
 }
 
 .gmap_canvas {
-    display: block;
-    overflow: hidden;
+  display: block;
+  overflow: hidden;
 }
