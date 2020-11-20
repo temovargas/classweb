@@ -6,8 +6,31 @@
 body {
   font-family: sans-serif;
   background: rgb(19, 33, 48);
+<<<<<<< HEAD
+}
+.cover {
+  background: rgb(92, 92, 92);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  opacity: 0;
+  animation: fadein 1s;
 }
 
+@keyframes fadein {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    display: none;
+  }
+=======
+>>>>>>> 98fc2e0a48e1ca4fbbee4d52ef873eb5b457c75d
+}
 p {
   line-height: 1.5;
 }
@@ -64,7 +87,11 @@ ul {
 main {
   text-align: center;
   color: white;
+<<<<<<< HEAD
+  padding: 0 0 70px 0;
+=======
   padding: 0 0 200px 0;
+>>>>>>> 98fc2e0a48e1ca4fbbee4d52ef873eb5b457c75d
 }
 
 main h2 {
@@ -74,7 +101,11 @@ main h2 {
 }
 
 .hero {
+<<<<<<< HEAD
+  background-image: url("./images/hero.png");
+=======
   background-image: url("./images/hero-min.png");
+>>>>>>> 98fc2e0a48e1ca4fbbee4d52ef873eb5b457c75d
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
@@ -123,6 +154,7 @@ main h2 {
   min-height: 100px;
   max-width: 250px;
   max-height: 250px;
+<<<<<<< HEAD
 
   text-align: center;
 
@@ -135,6 +167,20 @@ main h2 {
   position: relative;
   top: -10px;
 
+=======
+
+  text-align: center;
+
+  border-radius: 250px;
+
+  background: #000;
+
+  overflow: hidden;
+
+  position: relative;
+  top: -10px;
+
+>>>>>>> 98fc2e0a48e1ca4fbbee4d52ef873eb5b457c75d
   transition: box-shadow ease-in 0.3s;
 }
 
@@ -170,10 +216,17 @@ main h2 {
 .price-list li {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
 
   align-items: center;
   justify-content: center;
 
+=======
+
+  align-items: center;
+  justify-content: center;
+
+>>>>>>> 98fc2e0a48e1ca4fbbee4d52ef873eb5b457c75d
   background: white;
   max-width: 200px;
   width: 100%;
@@ -229,6 +282,10 @@ footer .info {
 .services {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
+  justify-content: space-evenly;
+=======
+>>>>>>> 98fc2e0a48e1ca4fbbee4d52ef873eb5b457c75d
   align-items: center;
   padding: 20px;
 }
@@ -267,6 +324,10 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
+<<<<<<< HEAD
+
+=======
+>>>>>>> 98fc2e0a48e1ca4fbbee4d52ef873eb5b457c75d
   margin: 100px auto;
   width: 100%;
   max-width: 600px;
@@ -303,6 +364,8 @@ form button {
   background: rgb(128, 17, 17);
   transform: translate(2px, 2px);
 }
+<<<<<<< HEAD
+=======
 
 .footer-wrapper {
   display: flex;
@@ -318,3 +381,4 @@ form button {
   display: block;
   overflow: hidden;
 }
+>>>>>>> 98fc2e0a48e1ca4fbbee4d52ef873eb5b457c75d
